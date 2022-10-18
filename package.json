@@ -1,0 +1,17 @@
+{
+  "name": "compiladoresohmjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "ohm-js": "^15.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "executar": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
