@@ -116,6 +116,5 @@
       ~/ProjetoCompiladoresComOhm$
       Arquivo html criado com sucesso!
       Diretório: "src/generated/html.html"
-
     ```
   4. Todo o código gerado estará na pasta *generated*. No arquivo html.html estará todo o HTML.
