@@ -37,7 +37,7 @@ function validationAndReduce(values, oneResult, reduce) {
   }
 }
 
-// Cria o código da tag HTML e suas funções
+// Cria o código da tag HTML
 function createTag(tagName, propsTag, children) {
   var html = "<" + tagName + " "; //  Open tag
   var props = "";
@@ -135,7 +135,7 @@ function verificarEGerarCodigo(input) {
   // Gera a árvore semântica do resultado
   const tree = semantic(result).toTree();
 
-  // Criação dos arquivos para o código HTML e as funções
+  // Criação dos arquivos para o código HTML
   const code = converteTreeToCode(tree);
   const html = new Uint8Array(Buffer.from(code.html));
   
