@@ -69,7 +69,6 @@ if(children.length > 0) {
 // Converte a Árvore em código
 function converteTreeToCode(tree) {
   const expressions = tree.exp; // Array de Expressões
-  console.log(expressions)
   var html = "";
   
   
@@ -100,7 +99,7 @@ function verificarEGerarCodigo(input) {
   const result = myGrammar.match(input);
 
   if (result.failed()) { // Verifica se há erros
-    console.log("Entrada inválida!\n");
+    console.log("Erro!!! Entrada inválida!\n");
     console.log(result.message);
     console.log("\n");
     return; // Para a execução
